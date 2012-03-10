@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.codehaus.jackson.core.feature_2.0.0.201203101605.jar" id="org.codehaus.jackson.core.feature" version="2.0.0.201203101605">
+      <category name="org.codehaus.jackson.core"/>
+   </feature>
+   <category-def name="org.codehaus.jackson.core" label="Jackson core"/>
+</site>
