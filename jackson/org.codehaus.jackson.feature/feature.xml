@@ -2,7 +2,7 @@
 <feature
       id="org.codehaus.jackson.feature"
       label="jackson"
-      version="1.9.5.qualifier"
+      version="1.9.5"
       provider-name="Eclipse Labs">
 
    <description url="http://www.example.com/description">
