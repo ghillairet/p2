@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: jackson-mapper
+Bundle-SymbolicName: org.codehaus.jackson.mapper
+Bundle-Version: 1.9.5
+Bundle-Vendor: Eclipse Labs
+Export-Package: org.codehaus.jackson.map.deser.std,
+ org.codehaus.jackson.map.introspect
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
