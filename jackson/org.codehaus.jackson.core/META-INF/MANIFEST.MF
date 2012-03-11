@@ -2,14 +2,13 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: jackson-core
 Bundle-SymbolicName: org.codehaus.jackson.core
-Bundle-Version: 1.9.5
-Bundle-Vendor: Eclipse Labs
-Export-Package: org.codehaus.jackson,
- org.codehaus.jackson.annotate,
- org.codehaus.jackson.format,
- org.codehaus.jackson.impl,
- org.codehaus.jackson.io,
- org.codehaus.jackson.sym,
- org.codehaus.jackson.type,
- org.codehaus.jackson.util
+Bundle-Version: 1.9.5.qualifier
+Export-Package: org.codehaus.jackson;version="1.9.5",
+ org.codehaus.jackson.annotate;version="1.9.5",
+ org.codehaus.jackson.format;version="1.9.5",
+ org.codehaus.jackson.impl;version="1.9.5",
+ org.codehaus.jackson.io;version="1.9.5",
+ org.codehaus.jackson.sym;version="1.9.5",
+ org.codehaus.jackson.type;version="1.9.5",
+ org.codehaus.jackson.util;version="1.9.5"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
