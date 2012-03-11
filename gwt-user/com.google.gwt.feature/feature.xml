@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="com.google.gwt.feature"
-      label="GWT"
-      version="2.4.0"
+      label="gwt-user"
+      version="2.4.0.qualifier"
       provider-name="GOOGLE">
 
    <description url="http://www.example.com/description">
@@ -21,6 +21,7 @@
          id="com.google.gwt.user"
          download-size="0"
          install-size="0"
-         version="0.0.0"/>
+         version="0.0.0"
+         unpack="false"/>
 
 </feature>
