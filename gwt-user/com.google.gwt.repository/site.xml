@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<site>
-   <feature url="features/com.google.gwt.feature_2.4.0.201203111715.jar" id="com.google.gwt.feature" version="2.4.0.201203111715">
-      <category name="com.google.gwt.user"/>
-   </feature>
-   <category-def name="com.google.gwt.user" label="gwt-user"/>
-</site>
