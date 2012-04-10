@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.apache.jena.feature_2.7.0.jar" id="org.apache.jena.feature" version="2.7.0">
+      <category name="org.apache.jena"/>
+   </feature>
+   <category-def name="org.apache.jena" label="Apache Jena"/>
+</site>
