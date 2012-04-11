@@ -10,5 +10,6 @@
     <child location='http://ghillairet.github.com/p2/jena/update-site/releases'/>
     <child location='http://ghillairet.github.com/p2/tdb/update-site/releases'/>
     <child location='http://ghillairet.github.com/p2/blueprints/update-site/releases'/>
+    <child location='http://ghillairet.github.com/p2/sesame/update-site/releases'/>
   </children>
 </repository>
