@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.apache.jena.tdb.feature_0.9.0.jar" id="org.apache.jena.tdb.feature" version="0.9.0">
+   <feature url="features/org.apache.jena.tdb.feature_0.9.0.qualifier.jar" id="org.apache.jena.tdb.feature" version="0.9.0.qualifier">
       <category name="org.apache.jena.tdb"/>
    </feature>
    <category-def name="org.apache.jena.tdb" label="Apache Jena TDB"/>

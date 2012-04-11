@@ -2,7 +2,7 @@
 <feature
       id="org.apache.jena.feature"
       label="Jena"
-      version="2.7.0"
+      version="2.7.0.qualifier"
       provider-name="Apache">
 
    <description url="http://www.example.com/description">
