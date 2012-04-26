@@ -6,12 +6,13 @@
     <property name='p2.timestamp' value='1243822502440'/>
   </properties>
   <children size='2'>
-    <child location='http://ghillairet.github.com/p2/jackson/update-site/releases'/>
-    <child location='http://ghillairet.github.com/p2/jena/update-site/releases'/>
-    <child location='http://ghillairet.github.com/p2/tdb/update-site/releases'/>
-    <child location='http://ghillairet.github.com/p2/blueprints/update-site/releases'/>
-    <child location='http://ghillairet.github.com/p2/sesame/update-site/releases'/>
-    <child location='http://ghillairet.github.com/p2/emf4sw/snapshots'/>
-    <child location='http://svn.codespot.com/a/eclipselabs.org/atl-commons/snapshots'/>
+	<child location='http://ghillairet.github.com/p2/emfjson/releases/0.4.0'/>
+	<child location='http://ghillairet.github.com/p2/jackson/update-site/releases'/>
+	<child location='http://ghillairet.github.com/p2/jena/update-site/releases'/>
+	<child location='http://ghillairet.github.com/p2/tdb/update-site/releases'/>
+	<child location='http://ghillairet.github.com/p2/blueprints/update-site/releases'/>
+	<child location='http://ghillairet.github.com/p2/sesame/update-site/releases'/>
+	<child location='http://ghillairet.github.com/p2/emf4sw/snapshots'/>
+	<child location='http://svn.codespot.com/a/eclipselabs.org/atl-commons/snapshots'/>
   </children>
 </repository>
