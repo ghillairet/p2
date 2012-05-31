@@ -1,0 +1,52 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Neo4j - Graph Database Kernel
+Bundle-SymbolicName: org.neo4j.kernel
+Bundle-Version: 1.7.1.qualifier
+Bundle-ClassPath: .
+Bundle-Vendor: The Neo4j Graph Database Project
+Export-Package: org.neo4j.graphdb,
+ org.neo4j.graphdb.event,
+ org.neo4j.graphdb.factory,
+ org.neo4j.graphdb.index,
+ org.neo4j.graphdb.traversal,
+ org.neo4j.helpers,
+ org.neo4j.helpers.collection,
+ org.neo4j.kernel,
+ org.neo4j.kernel.configuration,
+ org.neo4j.kernel.guard,
+ org.neo4j.kernel.impl,
+ org.neo4j.kernel.impl.annotations,
+ org.neo4j.kernel.impl.batchinsert,
+ org.neo4j.kernel.impl.cache,
+ org.neo4j.kernel.impl.core,
+ org.neo4j.kernel.impl.index,
+ org.neo4j.kernel.impl.nioneo.store,
+ org.neo4j.kernel.impl.nioneo.xa,
+ org.neo4j.kernel.impl.persistence,
+ org.neo4j.kernel.impl.storemigration,
+ org.neo4j.kernel.impl.storemigration.legacystore,
+ org.neo4j.kernel.impl.storemigration.monitoring,
+ org.neo4j.kernel.impl.transaction,
+ org.neo4j.kernel.impl.transaction.xaframework,
+ org.neo4j.kernel.impl.traversal,
+ org.neo4j.kernel.impl.util,
+ org.neo4j.kernel.info,
+ org.neo4j.kernel.lifecycle,
+ org.neo4j.kernel.logging,
+ org.neo4j.tooling,
+ org.neo4j.unsafe.batchinsert
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: javax.annotation.processing,
+ ch.qos.logback.classic.joran; version="1.0.0",
+ org.slf4j.impl; version="1.6.4",
+ org.slf4j; version="1.6.4",
+ javax.lang.model.element,
+ javax.transaction,
+ javax.lang.model.type,
+ javax.tools,
+ ch.qos.logback.core.joran.spi; version="1.0.0",
+ javax.transaction.xa,
+ javax.lang.model.util,
+ ch.qos.logback.classic; version="1.0.0",
+ ch.qos.logback.core; version="1.0.0"
