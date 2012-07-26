@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.neo4j.feature_1.7.1.qualifier.jar" id="org.neo4j.feature" version="1.7.1.qualifier">
+   <feature url="features/org.neo4j.feature_1.7.1.201205311413.jar" id="org.neo4j.feature" version="1.7.1.201205311413">
       <category name="org.neo4j"/>
    </feature>
    <category-def name="org.neo4j" label="Neo4j - Graph Database"/>
