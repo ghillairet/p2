@@ -7,6 +7,6 @@
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>com.tinkerpop.blueprints.feature</artifactId>
-	<packaging>eclipse-feature</packaging>
+	<artifactId>com.tinkerpop.blueprints.neo4j</artifactId>
+	<packaging>eclipse-plugin</packaging>
 </project>
