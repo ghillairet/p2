@@ -2,7 +2,7 @@
 <feature
       id="com.tinkerpop.blueprints.feature"
       label="Blueprints"
-      version="1.2.0.qualifier"
+      version="2.1.0.qualifier"
       provider-name="Tinkerpop">
 
    <description url="http://www.example.com/description">
@@ -19,9 +19,9 @@
 
    <requires>
       <import plugin="javax.xml"/>
-      <import plugin="org.codehaus.jackson.mapper"/>
       <import plugin="org.codehaus.jackson.core"/>
-      <import plugin="javax.xml.stream"/>
+      <import plugin="org.codehaus.jackson.mapper"/>
+      <import plugin="colt"/>
    </requires>
 
    <plugin
