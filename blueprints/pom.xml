@@ -22,7 +22,7 @@
 
 	<repositories>
 		<repository>
-			<id>jackson-p2</id>
+			<id>p2</id>
 			<layout>p2</layout>
 			<url>http://ghillairet.github.com/p2</url>
 		</repository>
