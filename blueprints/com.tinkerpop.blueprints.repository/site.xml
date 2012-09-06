@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/com.tinkerpop.blueprints.feature_1.2.0.jar" id="com.tinkerpop.blueprints.feature" version="1.2.0">
+   <feature url="features/com.tinkerpop.blueprints.feature_2.1.0.qualifier.jar" id="com.tinkerpop.blueprints.feature" version="2.1.0.qualifier">
+      <category name="com.tinkerpop.blueprints"/>
+   </feature>
+   <feature url="features/com.tinkerpop.blueprints.neo4j.feature_2.1.0.qualifier.jar" id="com.tinkerpop.blueprints.neo4j.feature" version="2.1.0.qualifier">
       <category name="com.tinkerpop.blueprints"/>
    </feature>
    <category-def name="com.tinkerpop.blueprints" label="Blueprints"/>

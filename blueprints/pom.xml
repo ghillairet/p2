@@ -5,11 +5,13 @@
 	<groupId>com.tinkerpop.blueprints</groupId>
 	<artifactId>blueprints</artifactId>
 	<packaging>pom</packaging>
-	<version>1.2.0-SNAPSHOT</version>
+	<version>2.1.0-SNAPSHOT</version>
 
 	<modules>
 		<module>com.tinkerpop.blueprints</module>
 		<module>com.tinkerpop.blueprints.feature</module>
+		<module>com.tinkerpop.blueprints.neo4j</module>
+		<module>com.tinkerpop.blueprints.neo4j.feature</module>
 		<module>com.tinkerpop.blueprints.repository</module>
 	</modules>
 
@@ -22,7 +24,7 @@
 		<repository>
 			<id>jackson-p2</id>
 			<layout>p2</layout>
-			<url>http://ghillairet.github.com/p2/jackson/update-site/releases</url>
+			<url>http://ghillairet.github.com/p2</url>
 		</repository>
 		<repository>
 			<id>eclipse</id>
@@ -77,17 +79,17 @@
 				</configuration>
 			</plugin>
 
-			<plugin>
-				<groupId>org.eclipse.tycho</groupId>
-				<artifactId>tycho-surefire-plugin</artifactId>
-				<version>${tycho-version}</version>
-				<configuration>
-					<argLine>-Xmx512M</argLine>
-					<includes>
-						<include>**/junit/suite/TestSuite.java</include>
-					</includes>
-				</configuration>
-			</plugin>
+<!-- 			<plugin> -->
+<!-- 				<groupId>org.eclipse.tycho</groupId> -->
+<!-- 				<artifactId>tycho-surefire-plugin</artifactId> -->
+<!-- 				<version>${tycho-version}</version> -->
+<!-- 				<configuration> -->
+<!-- 					<argLine>-Xmx512M</argLine> -->
+<!-- 					<includes> -->
+<!-- 						<include>**/junit/suite/TestSuite.java</include> -->
+<!-- 					</includes> -->
+<!-- 				</configuration> -->
+<!-- 			</plugin> -->
 
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
