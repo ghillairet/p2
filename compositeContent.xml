@@ -6,7 +6,7 @@
     <property name='p2.timestamp' value='1243822502499'/>
   </properties>
   <children size='2'>
-    <child location='http://ghillairet.github.com/p2/emfjson/releases/0.5.0'/>
+    <child location='http://ghillairet.github.com/p2/emfjson/releases/0.5.2'/>
     <child location='http://ghillairet.github.com/p2/colt/releases/'/>
     <child location='http://ghillairet.github.com/p2/neo4j/releases/1.7.1'/>
     <child location='http://ghillairet.github.com/p2/jackson/update-site/releases'/>
