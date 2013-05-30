@@ -5,7 +5,7 @@
 	<groupId>org.eclipselabs</groupId>
 	<artifactId>sesame</artifactId>
 	<packaging>pom</packaging>
-	<version>2.6.5-SNAPSHOT</version>
+	<version>2.7.1-SNAPSHOT</version>
 
 	<modules>
 		<module>org.openrdf.sesame</module>
@@ -14,15 +14,15 @@
 	</modules>
 
 	<properties>
-		<tycho-version>0.14.0</tycho-version>
+		<tycho-version>0.18.0</tycho-version>
 		<build-type>releases</build-type>
 	</properties>
 
 	<repositories>
 		<repository>
-			<id>indigo</id>
+			<id>kepler</id>
 			<layout>p2</layout>
-			<url>http://download.eclipse.org/releases/indigo</url>
+			<url>http://download.eclipse.org/releases/kepler</url>
 		</repository>
 	</repositories>
 	
