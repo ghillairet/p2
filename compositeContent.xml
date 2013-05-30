@@ -13,7 +13,7 @@
     <child location='http://ghillairet.github.com/p2/jena/update-site/releases'/>
     <child location='http://ghillairet.github.com/p2/tdb/update-site/releases'/>
     <child location='http://ghillairet.github.com/p2/blueprints/releases/2.1.0'/>
-    <child location='http://ghillairet.github.com/p2/sesame/update-site/releases'/>
+    <child location='http://ghillairet.github.com/p2/sesame/update-site/releases/2.7.1'/>
     <child location='http://ghillairet.github.com/p2/emf4sw/snapshots'/>
     <child location='http://svn.codespot.com/a/eclipselabs.org/atl-commons/snapshots'/>
   </children>
