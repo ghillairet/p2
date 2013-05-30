@@ -30,7 +30,7 @@
 								<phase>install</phase>
 								<configuration>
 									<tasks>
-										<unzip src="target/org.openrdf.sesame.repository.zip" 
+										<unzip src="target/org.openrdf.sesame.repository-${project.version}.zip" 
 											dest="../update-site/${build-type}" />
 									</tasks>
 								</configuration>
