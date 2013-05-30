@@ -2,7 +2,7 @@
 <feature
       id="org.openrdf.sesame.feature"
       label="Sesame"
-      version="2.6.5.qualifier"
+      version="2.7.1.qualifier"
       provider-name="Open RDF">
 
    <description url="http://www.example.com/description">

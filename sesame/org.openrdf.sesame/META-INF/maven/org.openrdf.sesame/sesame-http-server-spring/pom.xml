@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.openrdf.sesame</groupId>
 		<artifactId>sesame-http</artifactId>
-		<version>2.6.5</version>
+		<version>2.7.1</version>
 	</parent>
 
 	<artifactId>sesame-http-server-spring</artifactId>
@@ -15,16 +15,19 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.openrdf.sesame</groupId>
+			<groupId>${project.groupId}</groupId>
 			<artifactId>sesame-runtime</artifactId>
+			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.openrdf.sesame</groupId>
+			<groupId>${project.groupId}</groupId>
 			<artifactId>sesame-config</artifactId>
+			<version>${project.version}</version>
 		</dependency>
  		<dependency>
-			<groupId>org.openrdf.sesame</groupId>
+			<groupId>${project.groupId}</groupId>
 			<artifactId>sesame-util</artifactId>
+			<version>${project.version}</version>
 		</dependency>
  
 		<dependency>
@@ -69,11 +72,5 @@
 			<artifactId>junit</artifactId>
 		</dependency>
 	</dependencies>
-
-	<scm>
-		<connection>scm:svn:https://repo.aduna-software.org/svn/org.openrdf/sesame/tags/2.6.5/core/http/server-spring</connection>
-		<developerConnection>scm:svn:https://repo.aduna-software.org/svn/org.openrdf/sesame/tags/2.6.5/core/http/server-spring</developerConnection>
-		<url>http://repo.aduna-software.org/websvn/listing.php?repname=aduna&amp;path=/org.openrdf/sesame/tags/2.6.5/core/http/server-spring?repname=aduna&amp;path=/org.openrdf/sesame/branches/2.6/core/http/server-spring</url>
-	</scm>
 
 </project>

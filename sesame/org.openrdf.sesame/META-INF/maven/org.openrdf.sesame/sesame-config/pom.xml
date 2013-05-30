@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.openrdf.sesame</groupId>
 		<artifactId>sesame-core</artifactId>
-		<version>2.6.5</version>
+		<version>2.7.1</version>
 	</parent>
 
 	<artifactId>sesame-config</artifactId>
@@ -15,8 +15,9 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.openrdf.sesame</groupId>
+			<groupId>${project.groupId}</groupId>
 			<artifactId>sesame-util</artifactId>
+			<version>${project.version}</version>
 		</dependency>
 
 		<dependency>
@@ -35,13 +36,8 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
-	<scm>
-		<connection>scm:svn:https://repo.aduna-software.org/svn/org.openrdf/sesame/tags/2.6.5/core/util</connection>
-		<developerConnection>scm:svn:https://repo.aduna-software.org/svn/org.openrdf/sesame/tags/2.6.5/core/util</developerConnection>
-		<url>http://repo.aduna-software.org/websvn/listing.php?repname=aduna&amp;path=/org.openrdf/sesame/tags/2.6.5/core/util?repname=aduna&amp;path=/org.openrdf/sesame/branches/2.6/core/util</url>
-	</scm>
 
 </project>
