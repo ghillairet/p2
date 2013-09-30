@@ -1,21 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?compositeArtifactRepository version='1.0.0'?>
-<repository name='&quot;P2 Repository&quot;'
-    type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
+<repository name='P2 Repositories' type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
   <properties size='1'>
-    <property name='p2.timestamp' value='1243822502440'/>
+    <property name='p2.timestamp' value='1380551618392'/>
   </properties>
-  <children size='2'>
-	<child location='http://ghillairet.github.com/p2/emfjson/releases/0.6.0'/>
-	<child location='http://ghillairet.github.com/p2/emftriple/releases/1.0.0'/>
-	<child location='http://ghillairet.github.com/p2/colt/releases/'/>
-	<child location='http://ghillairet.github.com/p2/neo4j/releases/1.7.1'/>
-	<child location='http://ghillairet.github.com/p2/jackson/update-site/releases'/>
-	<child location='http://ghillairet.github.com/p2/jena/update-site/releases'/>
-	<child location='http://ghillairet.github.com/p2/tdb/update-site/releases'/>
+  <children size='13'>
+    <child location='http://ghillairet.github.com/p2/emfjson/releases/0.6.0'/>
+    <child location='http://ghillairet.github.com/p2/emftriple/releases/1.0.0'/>
+    <child location='http://ghillairet.github.com/p2/colt/releases/'/>
+    <child location='http://ghillairet.github.com/p2/neo4j/releases/1.7.1'/>
+    <child location='http://ghillairet.github.com/p2/jackson/update-site/releases'/>
+    <child location='http://ghillairet.github.com/p2/jena/update-site/releases'/>
+    <child location='http://ghillairet.github.com/p2/tdb/update-site/releases'/>
     <child location='http://ghillairet.github.com/p2/blueprints/releases/2.1.0'/>
     <child location='http://ghillairet.github.com/p2/sesame/update-site/releases/2.7.1'/>
-	<child location='http://ghillairet.github.com/p2/emf4sw/snapshots'/>
-	<child location='http://svn.codespot.com/a/eclipselabs.org/atl-commons/snapshots'/>
+    <child location='http://ghillairet.github.com/p2/emf4sw/snapshots'/>
+    <child location='http://svn.codespot.com/a/eclipselabs.org/atl-commons/snapshots'/>
+    <child location='emfjson/snapshots/0.7.0-SNAPSHOT/201309301424'/>
+    <child location='couch-emf/snapshots/0.6.0-SNAPSHOT/201309301432'/>
   </children>
 </repository>
