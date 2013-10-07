@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Jackson Core
+Bundle-SymbolicName: com.fasterxml.jackson.core
+Bundle-Version: 2.2.3.qualifier
+Bundle-ClassPath: jackson-core-2.2.3.jar
+Bundle-Vendor: fasterxml
+Export-Package: com.fasterxml.jackson.core,
+ com.fasterxml.jackson.core.base,
+ com.fasterxml.jackson.core.format,
+ com.fasterxml.jackson.core.io,
+ com.fasterxml.jackson.core.json,
+ com.fasterxml.jackson.core.sym,
+ com.fasterxml.jackson.core.type,
+ com.fasterxml.jackson.core.util
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Jackson Annotations
+Bundle-SymbolicName: com.fasterxml.jackson.annotations
+Bundle-Version: 2.2.3.qualifier
+Bundle-ClassPath: jackson-annotations-2.2.3.jar
+Bundle-Vendor: fasterxml
+Export-Package: com.fasterxml.jackson.annotation
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
