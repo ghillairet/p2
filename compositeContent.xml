@@ -2,9 +2,9 @@
 <?compositeMetadataRepository version='1.0.0'?>
 <repository name='&quot;P2 Repositories&quot;' type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' version='1.0.0'>
   <properties size='1'>
-    <property name='p2.timestamp' value='1381145042589'/>
+    <property name='p2.timestamp' value='1381759238378'/>
   </properties>
-  <children size='14'>
+  <children size='15'>
     <child location='http://ghillairet.github.com/p2/emfjson/releases/0.6.0'/>
     <child location='http://ghillairet.github.com/p2/emftriple/releases/1.0.0'/>
     <child location='http://ghillairet.github.com/p2/colt/releases/'/>
@@ -19,5 +19,6 @@
     <child location='emfjson/snapshots/0.7.0-SNAPSHOT/201309301424'/>
     <child location='couch-emf/snapshots/0.6.0-SNAPSHOT/201309301432'/>
     <child location='jackson2/2.2.3'/>
+    <child location='emfjson/snapshots/0.7.0-SNAPSHOT/201310141359'/>
   </children>
 </repository>
