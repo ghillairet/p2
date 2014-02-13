@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <bundle id="com.fasterxml.jackson.core.jackson-annotations" version="2.3.0">
+      <category name="com.fasterxml.jackson"/>
+   </bundle>
+   <bundle id="com.fasterxml.jackson.core.jackson-core" version="2.3.1">
+      <category name="com.fasterxml.jackson"/>
+   </bundle>
+   <bundle id="com.fasterxml.jackson.core.jackson-databind" version="2.3.1">
+      <category name="com.fasterxml.jackson"/>
+   </bundle>
+   <category-def name="com.fasterxml.jackson" label="Jackson"/>
+</site>
