@@ -1,13 +1,9 @@
 ## P2 repository
 
 Main repository (composite): http://ghillairet.github.com/p2
-- EMFJs 0.5.0: http://ghillairet.github.com/p2/emfjson/releases/0.5.0
-- Jackson 1.9.5: http://ghillairet.github.com/p2/jackson/update-site/releases
-- Apache Jena 2.7.0: http://ghillairet.github.com/p2/jena/update-site/releases
-- OpenRDF Sesame 2.6.5: http://ghillairet.github.com/p2/sesame/update-site/releases
-- Tinkerpop Blueprints 2.1.0: http://ghillairet.github.com/p2/blueprints/releases/2.1.0
-- Neo4J 1.7.1: http://ghillairet.github.com/p2/neo4j/releases/1.7.1
+- EMF-JSON 0.7.0: http://ghillairet.github.com/p2/releases/emfjson/2.7.0
+- Jackson 2.3.1: http://ghillairet.github.com/p2/releases/jackson/2.3.1
+- Apache Jena 2.11.1: http://ghillairet.github.com/p2/releases/jena/2.11.1
+- OpenRDF Sesame 2.8.0-beta1: http://ghillairet.github.com/p2/releases/sesame/2.8.0-beta1
+- Tinkerpop Blueprints 2.4.0: http://ghillairet.github.com/p2/releases/blueprints/2.4.0
 
-Note:
-- Lucene 3.5.0 is needed for Neo4J and can be install from eclipse orbit update site:
-  http://download.eclipse.org/tools/orbit/downloads/drops/S20120726065500/repository/
