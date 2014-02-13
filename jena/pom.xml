@@ -9,12 +9,12 @@
 		<version>1.0.0</version>
 	</parent>
 
-	<artifactId>jackson</artifactId>
-	<version>2.3.1</version>
+	<artifactId>jena</artifactId>
+	<version>${jena-version}</version>
 	<packaging>pom</packaging>
 
 	<properties>
-		<release-location>releases/jackson/${project.version}</release-location>
+		<release-location>releases/jena/${project.version}</release-location>
 	</properties>
 
 	<build>
@@ -30,16 +30,16 @@
 							<categoryFileURL>${basedir}/category.xml</categoryFileURL>
 							<artifacts>
 								<artifact>
-									<id>com.fasterxml.jackson.core:jackson-annotations:2.3.0</id>
-									<transitive>true</transitive>
+									<id>org.apache.jena:jena-core:${jena-version}</id>
+									<transitive>false</transitive>
 								</artifact>
 								<artifact>
-									<id>com.fasterxml.jackson.core:jackson-core:2.3.1</id>
-									<transitive>true</transitive>
+									<id>org.apache.jena:jena-arq:${jena-version}</id>
+									<transitive>false</transitive>
 								</artifact>
 								<artifact>
-									<id>com.fasterxml.jackson.core:jackson-databind:2.3.1</id>
-									<transitive>true</transitive>
+									<id>org.apache.jena:jena-tdb:${tdb-version}</id>
+									<transitive>false</transitive>
 								</artifact>
 							</artifacts>
 						</configuration>

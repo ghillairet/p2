@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<site>
-   <feature url="features/com.fasterxml.jackson.feature_2.2.3.qualifier.jar" id="com.fasterxml.jackson.feature" version="2.2.3.qualifier">
-      <category name="com.fasterxml.jackson"/>
-   </feature>
-   <category-def name="com.fasterxml.jackson" label="Jackson2"/>
-</site>

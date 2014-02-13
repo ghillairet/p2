@@ -9,12 +9,12 @@
 		<version>1.0.0</version>
 	</parent>
 
-	<artifactId>jackson</artifactId>
-	<version>2.3.1</version>
+	<artifactId>sesame</artifactId>
+	<version>${sesame-version}</version>
 	<packaging>pom</packaging>
 
 	<properties>
-		<release-location>releases/jackson/${project.version}</release-location>
+		<release-location>releases/sesame/${project.version}</release-location>
 	</properties>
 
 	<build>
@@ -30,15 +30,7 @@
 							<categoryFileURL>${basedir}/category.xml</categoryFileURL>
 							<artifacts>
 								<artifact>
-									<id>com.fasterxml.jackson.core:jackson-annotations:2.3.0</id>
-									<transitive>true</transitive>
-								</artifact>
-								<artifact>
-									<id>com.fasterxml.jackson.core:jackson-core:2.3.1</id>
-									<transitive>true</transitive>
-								</artifact>
-								<artifact>
-									<id>com.fasterxml.jackson.core:jackson-databind:2.3.1</id>
+									<id>org.openrdf.sesame:sesame-runtime:${sesame-version}</id>
 									<transitive>true</transitive>
 								</artifact>
 							</artifacts>
