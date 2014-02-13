@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
-
-<properties version="1.0">
-  <comment>ARQ System Properties</comment>
-  <entry key="com.hp.hpl.jena.sparql.version">2.9.0-incubating</entry>
-  <entry key="com.hp.hpl.jena.sparql.build.datetime">2011-12-14T15:04:27+0000</entry>
-</properties>

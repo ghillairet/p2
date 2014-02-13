@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<site>
-   <feature url="features/org.openrdf.sesame.feature_2.7.1.qualifier.jar" id="org.openrdf.sesame.feature" version="2.7.1.qualifier">
-      <category name="org.openrdf.sesame"/>
-   </feature>
-   <category-def name="org.openrdf.sesame" label="Sesame"/>
-</site>
