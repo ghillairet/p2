@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.apache.jena.feature_2.11.1.qualifier.jar" id="org.apache.jena.feature" version="2.11.1.qualifier">
+      <category name="org.apache.jena"/>
+   </feature>
+   <feature url="features/org.apache.jena.tdb.feature_1.0.1.qualifier.jar" id="org.apache.jena.tdb.feature" version="1.0.1.qualifier">
+      <category name="org.apache.jena"/>
+   </feature>
+   <category-def name="org.apache.jena" label="Jena"/>
+</site>
